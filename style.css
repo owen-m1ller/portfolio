@@ -24,7 +24,13 @@ a {
 }
 
 .current {
-  border-width: 0.4em;
+  border-bottom-width: 0.4em;
+  border-bottom-color: oklch(80% 3% 200);
+  padding-bottom: .2em;
+}
+
+a:hover {
+  border-bottom-width: 0.4em;
   border-bottom-color: oklch(80% 3% 200);
   padding-bottom: .2em;
 }
