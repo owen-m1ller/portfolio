@@ -9,7 +9,10 @@ body {
 
 nav {
   display: flex;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80%, 3%, 200);
 }
 
 a {
@@ -18,4 +21,10 @@ a {
   color: inherit;
   text-align: center;
   padding: 0.5em;
+}
+
+.current {
+  border-width: 0.4em;
+  border-bottom-color: oklch(80%, 3%, 200);
+  padding-bottom: .2em;
 }
