@@ -25,6 +25,6 @@ a {
 
 .current {
   border-width: 0.4em;
-  border-bottom-color: oklch(80%, 3%, 200);
+  border-bottom-color: oklch(80% 3% 200);
   padding-bottom: .2em;
 }
