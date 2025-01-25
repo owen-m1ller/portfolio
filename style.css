@@ -8,6 +8,7 @@ body {
 }
 
 nav {
+  background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
   display: flex;
   margin-bottom: 30px;
   border-bottom-width: 1px;
