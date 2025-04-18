@@ -1,5 +1,6 @@
 :root {
-    --color-accent: oklch(65% 50% 0)
+    --color-accent: oklch(65% 50% 0);
+    color-scheme: light dark;
 }
 
 body {
@@ -12,11 +13,12 @@ body {
   }
 
 nav {
+    --border-color: oklch(50% 10% 200 / 40%);
     display: flex;
     margin-bottom: 2em;
     border-bottom-width: 1px;
     border-bottom-style: solid;
-    border-bottom-color: oklch(80% 3% 200);
+    border-bottom-color: var(--border-color);
 }
 
 a {
@@ -29,7 +31,7 @@ a {
 
 .current {
     border-bottom-width: .2em;
-    border-bottom-color: oklch(80% 3% 200);
+    border-bottom-color: var(--border-color);
     padding-bottom: .2em;
     border-bottom-style: solid;
 }
@@ -76,41 +78,48 @@ article {
     grid-template-rows: subgrid;
     grid-row: span 3;
     gap: 1em;
-  }
+}
   
-  h1 {
-    font-size: 400%;
-    line-height: 1.1;
-  }
-  
-  h2 {
-    line-height: 1.1;
-  }
-  
-  h3 {
-    line-height: 1.1;
-  }
-  
-  h4 {
-    line-height: 1.1;
-  }
-  
-  h5 {
-    line-height: 1.1;
-  }
-  
-  h6 {
-    line-height: 1.1;
-  }
-  
-  section {
-    display: grid;
-    grid-template-rows: auto 1fr;
+h1 {
+  font-size: 400%;
+  line-height: 1.1;
+}
 
-  }
+h2 {
+  line-height: 1.1;
+}
 
-  .resume {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
-    gap: .5em;
-  }
+h3 {
+  line-height: 1.1;
+}
+
+h4 {
+  line-height: 1.1;
+}
+
+h5 {
+  line-height: 1.1;
+}
+
+h6 {
+  line-height: 1.1;
+}
+
+section {
+  display: grid;
+  grid-template-rows: auto 1fr;
+
+}
+
+.resume {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+  gap: .5em;
+}
+
+.color-scheme {
+  font: inherit;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
