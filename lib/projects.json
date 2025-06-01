@@ -12,10 +12,10 @@
 		"description": "Analyzed features including recipe descriptions, nutritional information, and preparation time to identify key predictors of user ratings. Performed missing data analysis to determine if features are not missing at random. Conducted a fairness analysis to evaluate model performance on vegetarian and non-vegetarian recipes."
 	},
 	{
-		"title": "Asperiores rem repellendus doloremque.",
-		"image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "year": 2019,
-		"description": "Eligendi tenetur quae quos recusandae est. Cumque, voluptatem. Quo nihil dignissimos molestiae explicabo praesentium aspernatur debitis, illo rerum possimus quam ducimus earum nulla officiis maiores itaque repellat corporis soluta labore?"
+		"title": "Boston City Bike Station Visualization",
+		"image": "../assets/biking-img.png",
+        "year": 2025,
+		"description": "Created an interactive visualization showcasing the use of rental bike stations at different periods of the day. The visualization is focused on the Boston Metropolitan Area and uses ds3 along with MapBox."
 	},
 	{
 		"title": "Laudantium reprehenderit placeat perspiciatis.",
